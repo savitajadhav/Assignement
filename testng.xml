@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Suite"  parallel="tests" thread-count="10">
+  <test name ="rt assignement" parallel="none" preserve-order="true">
+    <classes>
+      <class name="com.rtassignment.testcases.LoginPageTest">
+         <methods>
+          <include name="loginWithValidData" />
+          <include name="loginWithInvalidPassword" />
+          <include name="loginWithInvalidUsername" />
+          <include name="loginWithBlankUsername" />
+          <include name="loginWithBlankPassword" />
+          <include name="loginwithBlankcredentails" />
+          </methods>
+          </class>
+      <class name="com.rtassignment.testcases.ActivityPageTest">
+        <methods>
+         <include name="addMedia" />
+        </methods>
+        </class>
+      <class name="com.rtassignment.testcases.CreateAlbumTest">
+        <methods>
+         <include name="createAlbum" />
+        </methods>
+       </class>
+       <class name="com.rtassignment.testcases.ProfilePageTest">
+        <methods>
+          <include name="ChangeCoverImageTest"/>
+        </methods>
+        </class>
+     </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

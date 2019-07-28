@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="My Suite" duration-ms="255999" started-at="2019-07-28T17:56:07Z" finished-at="2019-07-28T18:00:23Z">
+    <groups>
+    </groups>
+    <test name="rt assignement" duration-ms="255999" started-at="2019-07-28T17:56:07Z" finished-at="2019-07-28T18:00:23Z">
+      <class name="com.rtassignment.testcases.ProfilePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.rtassignment.testcases.ProfilePageTest@1ed4004b]" name="setUp" is-config="true" duration-ms="25806" started-at="2019-07-28T17:59:34Z" finished-at="2019-07-28T17:59:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="ChangeCoverImageTest()[pri:0, instance:com.rtassignment.testcases.ProfilePageTest@1ed4004b]" name="ChangeCoverImageTest" duration-ms="23604" started-at="2019-07-28T17:59:59Z" finished-at="2019-07-28T18:00:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangeCoverImageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rtassignment.testcases.ProfilePageTest@1ed4004b]" name="tearDown" is-config="true" duration-ms="137" started-at="2019-07-28T18:00:23Z" finished-at="2019-07-28T18:00:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rtassignment.testcases.ProfilePageTest -->
+      <class name="com.rtassignment.testcases.CreateAlbumTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.rtassignment.testcases.CreateAlbumTest@4566e5bd]" name="setUp" is-config="true" duration-ms="21898" started-at="2019-07-28T17:58:40Z" finished-at="2019-07-28T17:59:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createAlbum()[pri:0, instance:com.rtassignment.testcases.CreateAlbumTest@4566e5bd]" name="createAlbum" duration-ms="31127" started-at="2019-07-28T17:59:02Z" finished-at="2019-07-28T17:59:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAlbum -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rtassignment.testcases.CreateAlbumTest@4566e5bd]" name="tearDown" is-config="true" duration-ms="775" started-at="2019-07-28T17:59:33Z" finished-at="2019-07-28T17:59:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rtassignment.testcases.CreateAlbumTest -->
+      <class name="com.rtassignment.testcases.ActivityPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.rtassignment.testcases.ActivityPageTest@56ef9176]" name="setUp" is-config="true" duration-ms="21569" started-at="2019-07-28T17:57:56Z" finished-at="2019-07-28T17:58:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addMedia()[pri:0, instance:com.rtassignment.testcases.ActivityPageTest@56ef9176]" name="addMedia" duration-ms="21257" started-at="2019-07-28T17:58:17Z" finished-at="2019-07-28T17:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMedia -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rtassignment.testcases.ActivityPageTest@56ef9176]" name="tearDown" is-config="true" duration-ms="1282" started-at="2019-07-28T17:58:39Z" finished-at="2019-07-28T17:58:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rtassignment.testcases.ActivityPageTest -->
+      <class name="com.rtassignment.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.rtassignment.testcases.LoginPageTest@13805618]" name="setUp" is-config="true" duration-ms="17994" started-at="2019-07-28T17:56:07Z" finished-at="2019-07-28T17:56:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginWithValidData()[pri:0, instance:com.rtassignment.testcases.LoginPageTest@13805618]" name="loginWithValidData" duration-ms="6061" started-at="2019-07-28T17:56:25Z" finished-at="2019-07-28T17:56:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rtassignment.testcases.LoginPageTest@13805618]" name="tearDown" is-config="true" duration-ms="810" started-at="2019-07-28T17:56:31Z" finished-at="2019-07-28T17:56:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.rtassignment.testcases.LoginPageTest@13805618]" name="setUp" is-config="true" duration-ms="16617" started-at="2019-07-28T17:56:32Z" finished-at="2019-07-28T17:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginWithInvalidPassword()[pri:0, instance:com.rtassignment.testcases.LoginPageTest@13805618]" name="loginWithInvalidPassword" duration-ms="3552" started-at="2019-07-28T17:56:49Z" finished-at="2019-07-28T17:56:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rtassignment.testcases.LoginPageTest@13805618]" name="tearDown" is-config="true" duration-ms="716" started-at="2019-07-28T17:56:52Z" finished-at="2019-07-28T17:56:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.rtassignment.testcases.LoginPageTest@13805618]" name="setUp" is-config="true" duration-ms="11187" started-at="2019-07-28T17:56:53Z" finished-at="2019-07-28T17:57:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginWithInvalidUsername()[pri:0, instance:com.rtassignment.testcases.LoginPageTest@13805618]" name="loginWithInvalidUsername" duration-ms="1351" started-at="2019-07-28T17:57:04Z" finished-at="2019-07-28T17:57:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidUsername -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rtassignment.testcases.LoginPageTest@13805618]" name="tearDown" is-config="true" duration-ms="846" started-at="2019-07-28T17:57:05Z" finished-at="2019-07-28T17:57:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.rtassignment.testcases.LoginPageTest@13805618]" name="setUp" is-config="true" duration-ms="15443" started-at="2019-07-28T17:57:06Z" finished-at="2019-07-28T17:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginWithBlankUsername()[pri:0, instance:com.rtassignment.testcases.LoginPageTest@13805618]" name="loginWithBlankUsername" duration-ms="1631" started-at="2019-07-28T17:57:22Z" finished-at="2019-07-28T17:57:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithBlankUsername -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rtassignment.testcases.LoginPageTest@13805618]" name="tearDown" is-config="true" duration-ms="763" started-at="2019-07-28T17:57:23Z" finished-at="2019-07-28T17:57:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.rtassignment.testcases.LoginPageTest@13805618]" name="setUp" is-config="true" duration-ms="13246" started-at="2019-07-28T17:57:24Z" finished-at="2019-07-28T17:57:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginWithBlankPassword()[pri:0, instance:com.rtassignment.testcases.LoginPageTest@13805618]" name="loginWithBlankPassword" duration-ms="946" started-at="2019-07-28T17:57:37Z" finished-at="2019-07-28T17:57:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithBlankPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rtassignment.testcases.LoginPageTest@13805618]" name="tearDown" is-config="true" duration-ms="770" started-at="2019-07-28T17:57:38Z" finished-at="2019-07-28T17:57:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.rtassignment.testcases.LoginPageTest@13805618]" name="setUp" is-config="true" duration-ms="14102" started-at="2019-07-28T17:57:39Z" finished-at="2019-07-28T17:57:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginwithBlankcredentails()[pri:0, instance:com.rtassignment.testcases.LoginPageTest@13805618]" name="loginwithBlankcredentails" duration-ms="1707" started-at="2019-07-28T17:57:53Z" finished-at="2019-07-28T17:57:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithBlankcredentails -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.rtassignment.testcases.LoginPageTest@13805618]" name="tearDown" is-config="true" duration-ms="751" started-at="2019-07-28T17:57:55Z" finished-at="2019-07-28T17:57:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.rtassignment.testcases.LoginPageTest -->
+    </test> <!-- rt assignement -->
+  </suite> <!-- My Suite -->
+</testng-results>

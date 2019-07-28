@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" guice-stage="DEVELOPMENT" name="Failed suite [My Suite]" parallel="tests">
+  <test thread-count="10" name="rt assignement(failed)">
+    <classes>
+      <class name="com.rtassignment.testcases.CreateAlbumTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="createAlbum"/>
+        </methods>
+      </class> <!-- com.rtassignment.testcases.CreateAlbumTest -->
+    </classes>
+  </test> <!-- rt assignement(failed) -->
+</suite> <!-- Failed suite [My Suite] -->
