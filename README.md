@@ -2,7 +2,7 @@
 
 Created a Repo named ‘RtAssignement’.
 
-Under ‘src’ folder 2 packages.
+Under ‘src’ folder 3 packages.
 
 1.	com.rtassignment – which includes ‘BasePage.java’. BasePage class contains common method like 
 initialization() – To initialize  the driver.
