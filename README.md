@@ -1,4 +1,5 @@
 1.	Description of Repo
+
 Created a Repo named ‘RtAssignement’.
 Under ‘src’ folder 2 packages.
 1.	com.rtassignment – which includes ‘BasePage.java’. BasePage class contains common method like 
@@ -22,6 +23,7 @@ ProfilePageTest:
 TC6 : User should be able to change the cover image.
 3.	com.rtassignemnt.sampleimages : This package includes sample images which are using to upload images while creating Album and also includes Auto it executable files.
 2.	How to Set it up
+
 1.	Create a New Repository
 2.	Open it using this command in terminal
 cd  ‘path of directory’
@@ -50,6 +52,7 @@ d.	To pull the recent changes from github use
 git pull origin master
 
 3.	How to run the code locally
+
    After exporting the project from GitHub to eclipse, execute the testing.xml to run the complete test suite.
 
 
