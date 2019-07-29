@@ -1,6 +1,6 @@
 1.	Description of Repo
 
-Created a Repo named ‘RtAssignement’.
+Created a Repo named ‘RtCampAssignement’.
 
 Under ‘src’ folder 3 packages.
 
