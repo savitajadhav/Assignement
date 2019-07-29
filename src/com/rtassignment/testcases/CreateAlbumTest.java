@@ -89,40 +89,37 @@ public class CreateAlbumTest extends BasePage{
 		createAlbumlink.click();
 		albumTitle.sendKeys("Sample Album");
 		createAlbumBtn.click();
-        closeBtn.click();
-        uploadOption.click(); //Click on upload button to upload files
-        selectFilesBtn.click(); //upload file1
-        Runtime.getRuntime().exec("D:\\JavaProgram\\RtAssignement\\src\\com\\rtassignment\\sampleimages\\Multifilesupload.exe"+" "+"D:\\JavaProgram\\RtAssignement\\src\\com\\rtassignment\\sampleimages\\testimage1.jpeg");
-        Thread.sleep(2000);
-        selectFilesBtn.click(); //upload file2
-        Runtime.getRuntime().exec("D:\\JavaProgram\\RtAssignement\\src\\com\\rtassignment\\sampleimages\\Multifilesupload.exe"+" "+"D:\\JavaProgram\\RtAssignement\\src\\com\\rtassignment\\sampleimages\\testimage2.jpeg");
-        Thread.sleep(2000);
-        selectFilesBtn.click();   //upload file3
-        Runtime.getRuntime().exec("D:\\JavaProgram\\RtAssignement\\src\\com\\rtassignment\\sampleimages\\Multifilesupload.exe"+" "+"D:\\JavaProgram\\RtAssignement\\src\\com\\rtassignment\\sampleimages\\testimage3.jpeg");
-        Thread.sleep(2000);
-        selectFilesBtn.click();   //upload file4   
-        Runtime.getRuntime().exec("D:\\JavaProgram\\RtAssignement\\src\\com\\rtassignment\\sampleimages\\Multifilesupload.exe"+" "+"D:\\JavaProgram\\RtAssignement\\src\\com\\rtassignment\\sampleimages\\testimage4.jpeg");
-        Thread.sleep(2000);
-        selectFilesBtn.click(); //upload file5
-        Runtime.getRuntime().exec("D:\\JavaProgram\\RtAssignement\\src\\com\\rtassignment\\sampleimages\\Multifilesupload.exe"+" "+"D:\\JavaProgram\\RtAssignement\\src\\com\\rtassignment\\sampleimages\\testimage5.jpeg");
-        startUploadBtn.click(); //start uploading
-        System.out.println("TC4:Album created with given name and privacy, 5 media uploaded successfully");
+        	closeBtn.click();
+        	uploadOption.click(); //Click on upload button to upload files
+        	selectFilesBtn.click(); //upload file1
+        	Runtime.getRuntime().exec("D:\\JavaProgram\\RtAssignement\\src\\com\\rtassignment\\sampleimages\\Multifilesupload.exe"+" "+"D:\\JavaProgram\\RtAssignement\\src\\com\\rtassignment\\sampleimages\\testimage1.jpeg");
+        	Thread.sleep(2000);
+        	selectFilesBtn.click(); //upload file2
+        	Runtime.getRuntime().exec("D:\\JavaProgram\\RtAssignement\\src\\com\\rtassignment\\sampleimages\\Multifilesupload.exe"+" "+"D:\\JavaProgram\\RtAssignement\\src\\com\\rtassignment\\sampleimages\\testimage2.jpeg");
+        	Thread.sleep(2000);
+        	selectFilesBtn.click();   //upload file3
+        	Runtime.getRuntime().exec("D:\\JavaProgram\\RtAssignement\\src\\com\\rtassignment\\sampleimages\\Multifilesupload.exe"+" "+"D:\\JavaProgram\\RtAssignement\\src\\com\\rtassignment\\sampleimages\\testimage3.jpeg");
+        	Thread.sleep(2000);
+        	selectFilesBtn.click();   //upload file4   
+        	Runtime.getRuntime().exec("D:\\JavaProgram\\RtAssignement\\src\\com\\rtassignment\\sampleimages\\Multifilesupload.exe"+" "+"D:\\JavaProgram\\RtAssignement\\src\\com\\rtassignment\\sampleimages\\testimage4.jpeg");
+        	Thread.sleep(2000);
+        	selectFilesBtn.click(); //upload file5
+        	Runtime.getRuntime().exec("D:\\JavaProgram\\RtAssignement\\src\\com\\rtassignment\\sampleimages\\Multifilesupload.exe"+" "+"D:\\JavaProgram\\RtAssignement\\src\\com\\rtassignment\\sampleimages\\testimage5.jpeg");
+        	startUploadBtn.click(); //start uploading
+        	System.out.println("TC4:Album created with given name and privacy, 5 media uploaded successfully");
         
-        //TC 5: Like/Unlike the media (Open any recently uploaded media, Click on like)	
+       	 	//TC 5: Like/Unlike the media (Open any recently uploaded media, Click on like)	
         
-        albumLink.click();
-        firstAlbum.click();
+        	albumLink.click();
+        	firstAlbum.click();
 		r.keyPress(KeyEvent.VK_PAGE_DOWN); //scrolled the page to view create/upload new album option
 		Thread.sleep(2000);
-        firstAlbum.click();
-        Thread.sleep(2000);
-        likeBtn.click();
-        System.out.println("TC5: User liked the media and Media shows Unlike after liked");
+        	firstAlbum.click();
+        	Thread.sleep(2000);
+        	likeBtn.click();
+        	System.out.println("TC5: User liked the media and Media shows Unlike after liked");
    	}
         
-	
-
-
 	@AfterMethod
 	public void tearDown()
 	{
