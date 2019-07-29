@@ -1,6 +1,6 @@
 1.	Description of Repo
 
-Created a Repo named ‘RtCampAssignement’.
+Created a Repo named ‘RtCampAssignement’ which includes automation script of the assignment. Under the Issues tab , there is a list of issues.
 
 Under ‘src’ folder 3 packages.
 
@@ -13,7 +13,7 @@ LoginPageTest : includes below test cases:
 
 TC1: User should be able to log in on entering valid credentials.
 
-TC2: User should not be able to logged in on entering invalid credentials and should get proper error message. Below are cases
+TC2: User should not be able to log in on entering invalid credentials and should get a proper error message. Below are cases
 
 a.	Valid username & invalid password.
 
@@ -31,7 +31,7 @@ TC3: Media should be uploaded with ‘Private’ privacy.
 
 CreateAlbumTest:
 
-TC4: User should be able to create album with proper name and ‘Private’ privacy and 5 media should uploaded successfully.
+TC4: User should be able to create an album with the proper name and ‘Private’ privacy and 5 media should be uploaded successfully.
 
 TC5: User should be able to like/unlike the media and once user liked the post media should show ‘Unlike’
 
@@ -39,7 +39,7 @@ ProfilePageTest:
 
 TC6 : User should be able to change the cover image.
 
-3.	com.rtassignemnt.sampleimages : This package includes sample images which are using to upload images while creating Album and also includes Auto it executable files.
+3.	com.rtassignemnt.sampleimages : This package includes sample images which are using to upload images while creating Album and also includes Autoit executable files.
 
 2.	How to Set it up
 
