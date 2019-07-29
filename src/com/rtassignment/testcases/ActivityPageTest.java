@@ -37,7 +37,7 @@ public class ActivityPageTest extends BasePage {
 	}
 	
 	//TC3: Update the status of a post with any of the media type and privacy should be private	
-    @Test
+        @Test
 	public void addMedia() throws IOException, InterruptedException
 	{
 		textArea.click(); //Click on Text Area
