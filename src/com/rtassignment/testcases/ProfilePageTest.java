@@ -50,8 +50,6 @@ public class ProfilePageTest extends BasePage {
 		Thread.sleep(2000);
 		Actions act = new Actions(driver);
 		act.moveToElement(profileLink);
-		
-		//profileLink.click(); //Select Profile option
 		Thread.sleep(5000);
 		Robot r = new Robot();
 		r.keyPress(KeyEvent.VK_PAGE_DOWN);		
